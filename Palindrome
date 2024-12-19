@@ -1,0 +1,11 @@
+ str = str.replace(/\s/g, '').toLowerCase();
+  return str === str.split('').reverse().join('');
+}
+
+const word1 = prompt("Enter the first word:");
+const word2 = prompt("Enter the second word:");
+
+console.log("Original word 1:", word1);
+console.log("Reversed word 1:", word1.split('').reverse().join(''));
+console.log("Original word 2:", word2);
+console.log("Reversed word 2:", word2.split('').reverse().join(''));
